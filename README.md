@@ -19,6 +19,10 @@ Note that we use **UR-FUNNY Version 1** here.
 
 <img src="./figs/urfunny.png" width="250">
 
+### MIntRec
+
+<img src="./figs/mintrec.png" width="410">
+
 ## Citation
 
 ```
