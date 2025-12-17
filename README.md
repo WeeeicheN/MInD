@@ -1,6 +1,6 @@
 # MInD
 
-Code for MInD: Multimodal Information Disentanglement, will be made **fully** available after the paper is published.
+Code for MInD: Multimodal Information Disentanglement, will be made **fully** available after the paper is published. Thanks for understanding.
 
 Feel free to discuss any details with me at any time :)
 
