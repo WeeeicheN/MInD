@@ -1,0 +1,33 @@
+#!bin/bash
+
+python run_mosei.py \
+--dataset MOSEI \
+--data_root /home/dwc/data/MOSEI \
+--device cuda:6 \
+--chkpt_dir /home/dwc/checkpoints/MInD_Test/MOSEI \
+--save_checkpoint True \
+--embdim 256 \
+--enc_dropout 0.4 \
+--rev_alpha_type alpha \
+--fusedim 128 \
+--clf_dropout 0.1 \
+--activation gelu \
+--seed 3407 \
+--epoch_num 100 \
+--batch_size 32 \
+--rollback_num 1 \
+--rollback_patience 2 \
+--info_loss_coeff 2e-2 \
+--bt_loss_coeff 2e-4 \
+--hsic_loss_coeff 1e-3 \
+--rec_loss_coeff 1 \
+--cyr_loss_coeff 1 \
+--noise_pred_loss_coeff 1 \
+--lr 2e-5 \
+--clip_grad False \
+--optimizer AdamW \
+--adam_b1 0.9 \
+--adam_b2 0.999 \
+--adam_weight_decay 0 \
+--scheduler explr \
+--explr_gamma 0.5
